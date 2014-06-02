@@ -64,7 +64,7 @@ impl fmt::Show for Value {
 
 
 /// Possible errors returned from the parse functions
-#[deriving(Show,Clone,Eq)]
+#[deriving(Show,Clone,PartialEq)]
 pub enum Error {
     /// A parser error occurred during parsing
     ParseError,
