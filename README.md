@@ -8,6 +8,15 @@ A [TOML][toml-home] configuration file parser for [Rust][rust-home].
 [toml-home]: https://github.com/mojombo/toml
 [rust-home]: http://www.rust-lang.org
 
+To build (using your system's ```rustc```):
+
+    make
+
+To use another rustc create a file called ```config.mk``` with:
+
+    RUSTC ?= /path/to/rustc
+
+
 ## Quickstart
 
 Given the following TOML configuration file:
